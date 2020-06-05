@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About Me</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          AJ GRIMMETT
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/mark.jpg)"></div>
+
+          <div class="img-text-wrapper">
+            <div id="igmarks">                                     
+              <div class="logo-wrapper">
+                <a href="https://markfield.co/collections/frontpage"><img src="images/logos/mark.jpg"></a>
+              </div>        
+              <div class="subtitle">
+                Markfield sells the best premium leather and canvas accessories
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="mark">
+            <div class="portfolio-img-background" style="background-image:url(images/boots.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <div id="igboot">
+                <a href="https://thursdayboots.com"><img src="images/logos/thursday.jpg"></a>    
+              </div>
+              <div class="subtitle">
+                ThursdayBoots sells some of the best premium and fashionable boots for men 
+              </div>
+            </div>  
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="beth">
+           <div class="portfolio-img-background" style="background-image:url(images/beth.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+            <div id="igbeths">
+              <div class="logo-wrapper">
+                <a href="https://bethroned.com/?v=7516fd43adaa"><img src="images/logos/beth.png"></a>
+              </div>
+              <div class="subtitle">
+                 Bethroned sells the best premium and fashionable watches
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="codes">
+           <div class="portfolio-img-background" style="background-image:url(images/code.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+            <div id="igcodes">                      
+              <div class="logo-wrapper">
+                <a href="https://www.codecademy.com"><img src="images/logos/code.jpg"></a>
+              </div>                     
+              <div class="subtitle">
+                Codecademy has the best online coding tutorials 
+              </div>
+            </div>  
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="original">
+            <div class="portfolio-img-background" style="background-image:url(images/watch.jpeg)"></div>
+          </div>
+            <div class="img-text-wrapper">
+            <div id="igoriginal">
+              <div class="logo-wrapper">
+                <a href="https://www.originalgrain.com"><img src="images/logos/original.jpg"></a>
+              </div>                        
+              <div class="subtitle">
+                Original Grain sells the best premium wooden watches
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="bull">
+            <div class="portfolio-img-background" style="background-image:url(images/bulls.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+            <div id="igbulls">                                                                                                           
+              <div class="logo-wrapper">
+                <a href="https://bullstrap.co"><img src="images/logos/bull.webp"></a>
+              </div>
+              <div class="subtitle">
+                Bullstrap sells the best premium leather accessories and leather cases for Apple products 
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="wolverine">
+            <div class="portfolio-img-background" style="background-image:url(images/wolverine.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+            <div id="igwolverines">                                                     
+              <div class="logo-wrapper">
+                <a href="https://www.wolverine.com/US/en/home"><img src="images/logos/WOLVERINE.jpg"></a>
+              </div>
+              <div class="subtitle">
+                Wolverine sells some of the best premium and fashionable boots for men
+              </div>
+            </div>
+         </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="huck">
+            <div class="portfolio-img-background" style="background-image:url(images/huck.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+            <div id="ighuck">
+              <div class="logo-wrapper">
+                <a href="https://huckberry.com"><img src="images/logos/huckberry.jpg"></a>
+              </div>
+              <div class="subtitle">
+                Sales the best outdoor clothing and footwear
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div id="susan">
+            <div class="portfolio-img-background" style="background-image:url(images/mountain1.jpg)"></div>
+          </div>
+          <div class="img-text-wrapper">
+          <div id="igsusan">
+            <div class="logo-wrapper">
+              <a href="https://www.susansheltonperry2020.com"><img src="images/logos/logo5.jpg"></a>
+            </div>
+            <div class="subtitle">         
+              I built this campaign website in 2020
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>   
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>
